@@ -1,0 +1,43 @@
+#wrapper {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+body {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-size: 1em;
+  color: #1a1a1a;
+  line-height: 1.625em;
+  background: #f6f6f6;
+}
+
+#main {
+  -webkit-columns: 300px 3;
+  -webkit-column-gap: 2em;
+  -webkit-column-rule: 1px dotted #BEBEBE;
+}
+
+h1 {
+  -webkit-column-span: all;
+  font-family: 'Arvo', Georgia, serif;
+  font-weight: normal;
+}
+
+img {
+  width: 80%;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+  border-radius: 5%;
+  display: block;
+  margin: auto;
+}
+
+a {
+  color: #447799;
+  text-decoration: none;
+}
+
+#note {
+  font-size: .625em;
+  font-style: italic;
+}
